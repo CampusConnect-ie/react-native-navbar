@@ -1,5 +1,5 @@
-import React, { Component, PropTypes } from 'react'
-import { Navigator } from 'react-native-deprecated-custom-components'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'import { Navigator } from 'react-native-deprecated-custom-components'
 import { isSameUrl, findRoute } from './routing'
 import routeMapper from './route-mapper'
 
